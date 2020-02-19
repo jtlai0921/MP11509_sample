@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample</title>
+    <link rel="stylesheet" href="css/jquery.multilevelpushmenu.css">
+    <style>
+      #menu { position : absolute; top: 0px; left : 0px; }
+      #intro { position : absolute; top: 0px; left : 200px; }
+     </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jquery.multilevelpushmenu.min.js"></script>
+    <script src="js/sample.js"></script>
+  </head>
+  <body>
+    <div id="intro">
+      <h1>多階層側邊選單</h1>
+      <p>可達成多階層的選單。</p>
+    </div>
+    <div id="menu">
+      <nav>
+        <h2><i class="fa"></i>今日拉麵</h2>
+        <ul>
+          <li><a href="#"><i class="fa"></i>定食</a>
+            <h2><i class="fa"></i>本日定食</h2>
+            <ul>
+              <li><a href="#"><i class="fa"></i>蕎麥麵＆烏龍麵</a>
+              <h2><i class="fa"></i>本日麵類</h2>
+              <ul>
+                <li><a href="#">天婦羅蕎麥麵</a></li>
+                <li><a href="#">油豆皮烏龍麵</a></li>
+              </ul>
+              </li>
+              <li><a href="#"><i class="fa"></i>拉麵</a>
+              <h2><i class="fa"></i>拉麵</h2>
+              <ul>
+                <li><a href="#">味噌拉麵</a></li>
+                <li><a href="#">鹽味拉麵</a></li>
+                <li><a href="#">醬油拉麵</a></li>
+                <li><a href="#">擔擔麺</a></li>
+              </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="fa"></i>中華料理</a>
+            <h2><i class="fa"></i>今日中華料理</h2>
+            <ul>
+              <li><a href="#">中華丼</a></li>
+              <li><a href="#">北京烤鴨</a></li>
+              <li><a href="#">四川料理</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>

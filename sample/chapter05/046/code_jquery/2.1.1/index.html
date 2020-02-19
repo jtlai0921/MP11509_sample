@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jquery-picture-min.js"></script>
+    <script src="js/sample.js"></script>
+  </head>
+  <body>
+    <h1>顯示對應容器尺寸的圖片</h1>
+    <picture alt="標題標誌">
+      <source src="images/small.png">
+      <source src="images/medium.png" media="(min-width:500px)">
+      <source src="images/large.png" media="(min-width:700px)">
+      <noscript>
+        <img src="images/small.png" alt="標題標誌">
+      </noscript>
+    </picture>
+  </body>
+</html>
